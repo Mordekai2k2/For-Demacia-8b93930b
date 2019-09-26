@@ -5,9 +5,9 @@ $people = array(
     "Herman Kaal",
     "Henk de Steen",
     "Inge Kerkhoven",
-    "Gert Kruiswijk"
+    "Gert Kruiswijk",
 );
 
-for ($i = 1; $i <= 5; $i++) {
+for ($i = 0; $i <= count ($people); $i++) {
     echo $people[$i]. PHP_EOL;
 }
